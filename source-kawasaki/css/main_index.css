@@ -1,0 +1,7 @@
+
+    .search_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%; /* Đảm bảo chiều cao của search_box là 100% của phần tử cha */
+    }

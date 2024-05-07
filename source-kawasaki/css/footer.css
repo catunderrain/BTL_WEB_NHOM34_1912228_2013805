@@ -1,0 +1,66 @@
+  /*/////////////// FOOTER /////////////////////*/
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* text-align: center; */
+    background: #000000;
+
+    height: auto;
+    margin: auto;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-part{
+    padding-left: 40px;
+  }
+
+  .heading-footer{
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6c3;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding-bottom: 10px;
+  }
+
+  .module{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .width100 {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 350px;
+  width: 100%;
+}
+
+  /*/////////////// FOOTER /////////////////////*/
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }

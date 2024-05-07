@@ -1,0 +1,252 @@
+/* ////////// ADVERTISEMENT ///////////// */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.product {
+  flex: 0 1 30%; 
+  box-sizing: border-box;
+  margin: 10px; 
+  padding: 10px;
+  border: 0px solid #ccc;
+  text-align: center; 
+}
+.advertisement {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.adver-avatar {
+  position: relative;
+  width: 100%;
+}
+
+.adver-avatar img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.adver-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff; /* Màu chữ của caption */
+}
+
+.adver-container {
+  /* background-color: #f2f2f2; */
+  padding: 50px;
+}
+
+.adver-infor-cap {
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.adver-infor-cap h3 {
+  margin: 5px 0;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.adver-infor-cap h2 {
+  margin: 5px 0;
+  font-weight: 800;
+  font-size: 100px;
+}
+
+.greenSpacer{
+  height: 15px;
+  width: 100px;
+  background: #6c3;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+/* ////////// ADVERTISEMENT ///////////// */
+
+/* ////////// MAIN ///////////// */
+
+.homeVehicles{
+  padding: 100px 0 80px;
+}
+
+.container{
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: inherit;
+}
+
+.container-header h3{
+  margin-bottom: 35px;
+  margin-left: 50px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.card-text{
+  font-size: 17px;
+}
+
+.cart-greenSpacer{
+  height: 7px;
+  width: 40px;
+  background: #6c3;
+  margin: 10px auto;
+}
+
+/* ////////// MAIN ///////////// */
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  body .adver-container {
+      max-width: 100%;
+  }
+}
+  .p3 {
+    font-family: 'Copperplat', fantasy;
+    font-size: 35px;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+    --bs-gutter-x: 0;
+  }
+
+/* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 20%;
+    background-color: #f1f1f1;
+  }
+
+  .side-category {
+    margin-bottom: 10px;
+  }
+
+  .side-category-text {
+    background-color: #010101;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    padding-left: 20px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 60%;
+    background-color: rgb(229, 229, 229);
+    /* background-color: rgb(255, 255, 255); */
+    padding: 20px;
+  }
+
+  .breadcrumb{
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .flex-container-img{
+    flex: 60%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+
+  .flex-container-img-detail {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0px;
+  }
+
+  .fakeimg-detail {
+    width: 25%;
+    height: 150px;
+    padding-right: 5px;
+  }
+
+  .flex-container-summary{
+    flex: 40%;
+    background-color: rgb(229, 229, 229);
+    /* background-color: rgb(255, 255, 255); */
+    padding: 10px;
+  }
+
+  .card{
+    width: 520px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    /* line-height: 75px;
+    font-size: 30px; */
+  }
+
+  .list-group{
+    font-size: 14.5px;
+  }
+
+  .list-group-item{
+    padding: 5px;
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 320px;
+  }
+
+  .pagination {
+    float: right;
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+  }
+  
